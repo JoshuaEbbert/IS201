@@ -1,0 +1,35 @@
+.main-div {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
+
+.content {
+    text-align: left;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 3%
+}
+
+.embedded-video {
+    width: 30vw;
+    height: calc(100vw/5.25);
+}
+
+body {
+    background-image: url("../assets/img/tab-bg.jpeg");
+    background-size: cover;
+}
+
+.ul-content {
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+li {
+    text-align: left;
+}
